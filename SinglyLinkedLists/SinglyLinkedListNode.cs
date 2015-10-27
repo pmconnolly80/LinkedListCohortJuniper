@@ -25,11 +25,7 @@ namespace SinglyLinkedLists
                 {
                     throw new ArgumentException();
                 }
-                else
-                {
-                    next = value;
-                }
-
+                next = value;  
             }
         }
 
